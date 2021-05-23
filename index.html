@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>贪吃蛇1.0</title>
+
+    <style>
+        body {
+            background: -webkit-linear-gradient( rgb(0, 253, 148), skyblue);
+            color: #fff;
+        }
+        
+        table {
+            border-collapse: collapse;
+            border: 1px solid #fff;
+            background: transparent;
+        }
+        
+        td {
+            width: 22px;
+            height: 22px;
+            border: 1px solid #fff;
+            background: transparent;
+            color: red;
+            text-align: center;
+            border-radius: 50%;
+        }
+    </style>
+
+
+
+</head>
+
+<body>
+    <h3 id='f'>Time:0</h3>
+    <h3 id="score">Score:0</h3>
+    <div id="app"></div>
+
+
+    <script src="Game.js"></script>
+    <script src="Snake.js"></script>
+    <script src="Food.js"></script>
+
+
+    <script>
+        var game = new Game()
+    </script>
+
+
+
+</body>
+
+</html>
